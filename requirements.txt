@@ -1,5 +1,6 @@
 # Web Framework
 Flask==2.3.3
+waitress==2.1.2
 
 # Machine Learning
 tensorflow==2.17.1
@@ -7,9 +8,11 @@ lightgbm==4.1.0
 scikit-learn==1.4.2
 numpy==1.26.4
 pandas==2.0.3
+imbalanced-learn==0.11.0
 
 # Data Visualization (for training scripts)
 matplotlib==3.7.2
+seaborn==0.12.2
 
 # Web Server (optional, for production)
 gunicorn==21.2.0
